@@ -1,308 +1,323 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jean Alexandre GUEDJI TINE — Développeur IA</title>
-  <meta name="description" content="Portfolio de Jean Alexandre GUEDJI TINE, Développeur IA & Ingénieur Intelligence Artificielle. Spring Boot, Python, React, Computer Vision, Cloud & DevOps." />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jean Alexandre Guedji TINE — Ingénieur IA & Développeur Full Stack</title>
+  <meta name="description" content="Portfolio de Jean Alexandre Guedji TINE, ingénieur en Intelligence Artificielle et développeur Full Stack. Expertises : IA & Machine Learning, développement web, IoT et systèmes embarqués.">
+  <meta name="keywords" content="Jean Alexandre Guedji TINE, ingénieur IA, intelligence artificielle, machine learning, deep learning, développeur full stack, IoT, Sénégal, Dakar">
+  <meta name="author" content="Jean Alexandre Guedji TINE">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jean Alexandre Guedji TINE — Ingénieur IA & Full Stack">
+  <meta property="og:description" content="Intelligence artificielle, développement full stack, IoT et systèmes embarqués. Portfolio de Jean Alexandre Guedji TINE.">
+  <meta property="og:url" content="https://jagt00.github.io/portfolio/">
+  <meta property="og:site_name" content="Portfolio — Jean Alexandre Guedji TINE">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Jean Alexandre Guedji TINE — Ingénieur IA & Full Stack">
+  <meta name="twitter:description" content="Intelligence artificielle, full stack, IoT. Portfolio de Jean Alexandre Guedji TINE.">
+
+  <link rel="canonical" href="https://jagt00.github.io/portfolio/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header class="navbar">
-    <div class="container navbar-inner">
-      <a href="#accueil" class="brand">JAG<span class="brand-dot">.</span></a>
-      <nav class="nav-links" id="nav-links">
-        <a href="#accueil">Accueil</a>
-        <a href="#apropos">À propos</a>
-        <a href="#competences">Compétences</a>
-        <a href="#projets">Projets</a>
-        <a href="#experience">Expérience</a>
-        <a href="#formation">Formation</a>
-        <a href="#contact" class="btn-nav">Contact</a>
-      </nav>
-      <button class="menu-toggle" id="menu-toggle" aria-label="Menu">☰</button>
-    </div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner" aria-label="Navigation principale">
+      <a href="#accueil" class="nav-brand" aria-label="Retour à l'accueil">
+        <span class="nav-brand-mark">JT</span>
+        <span>Jean A. TINE</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#accueil" class="is-active">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#expertises">Expertises</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
   </header>
 
   <main>
-    <!-- ===== HERO ===== -->
-    <section id="accueil" class="hero">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="accueil">
+      <div class="hero-net" aria-hidden="true"></div>
       <div class="container hero-inner">
-        <div class="hero-text">
-          <p class="hero-hello">Bonjour, moi c&rsquo;est</p>
-          <h1>Jean Alexandre<br /><span class="accent">GUEDJI TINE</span></h1>
-          <p class="hero-role">Développeur IA &amp; Ingénieur en Intelligence Artificielle</p>
-          <p class="hero-desc">
-            Ingénieur en IA, systèmes &amp; réseaux. Je conçois des applications web performantes,
-            des solutions de Machine Learning et de Computer Vision, et j&rsquo;administre des infrastructures Cloud &amp; DevOps.
+        <div>
+          <p class="hero-eyebrow reveal">Intelligence Artificielle · Développement · IoT</p>
+          <h1 class="hero-title reveal">
+            Jean Alexandre<br>Guedji <span>TINE</span>
+          </h1>
+          <p class="hero-tagline reveal">Ingénieur IA &amp; Développeur Full Stack</p>
+          <p class="hero-text reveal">
+            Je conçois des solutions intelligentes — Machine Learning, Deep Learning,
+            applications web et systèmes IoT — pour donner aux décisions une base
+            algorithmique solide et mesurable.
           </p>
-          <div class="hero-actions">
-            <a href="#projets" class="btn btn-primary">Voir mes projets</a>
-            <a href="#contact" class="btn btn-secondary">Me contacter</a>
+          <p class="hero-lang reveal">Français (courant) · Anglais (professionnel)</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#projets">Voir mes projets</a>
+            <a class="btn btn-ghost" href="assets/cv/CV-Jean-Alexandre-Guedji-TINE.pdf" target="_blank" rel="noopener" download>Mon CV (PDF)</a>
           </div>
-          <div class="hero-socials">
-            <a href="https://github.com/jagt00" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/jagt00" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="mailto:Jeanalexandretine1@gmail.com">Email</a>
-          </div>
-        </div>
-        <div class="hero-visual">
-          <div class="avatar-card">
-            <svg class="avatar-svg" viewBox="0 0 200 200" role="img" aria-label="Avatar Jean Alexandre GUEDJI TINE">
-              <defs>
-                <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stop-color="#22d3ee" />
-                  <stop offset="100%" stop-color="#6366f1" />
-                </linearGradient>
-              </defs>
-              <rect width="200" height="200" rx="100" fill="url(#grad)" />
-              <text x="100" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#0b1020">JAG</text>
-            </svg>
-            <div class="avatar-chip">IA · Web · Cloud 🔷</div>
-          </div>
+          <ul class="hero-facts reveal">
+            <li class="hero-point">Master IA &amp; Smart Tech</li>
+            <li class="hero-point">Spring Boot · Python · React</li>
+            <li class="hero-point">Basé à Dakar, Sénégal</li>
+          </ul>
         </div>
       </div>
-      <div class="scroll-hint">▼ scroller</div>
     </section>
 
-    <!-- ===== A PROPOS ===== -->
-    <section id="apropos" class="section">
+    <!-- ============ À PROPOS ============ -->
+    <section class="section" id="apropos">
       <div class="container">
-        <h2 class="section-title">À propos<span class="title-bar"></span></h2>
+        <p class="section-eyebrow reveal">À propos</p>
+        <h2 class="section-title reveal">Une double compétence : <span class="accent-blue">data &amp; systèmes</span></h2>
         <div class="apropos-grid">
-          <div class="apropos-text">
+          <div class="apropos-text reveal">
             <p>
-              Titulaire d&rsquo;un <strong>Master en Intelligence Artificielle et Smart-Tech</strong> (Université Iba Der Thiam de Thiès,
-              en partenariat avec l&rsquo;Université Technologique de Troyes) et d&rsquo;une <strong>Licence en Systèmes, Réseaux et Télécoms</strong>,
-              j&rsquo;allie une expérience concrète en développement d&rsquo;applications web, en intelligence artificielle, en administration
-              systèmes et réseaux ainsi qu&rsquo;en gestion de projets numériques.
+              Titulaire d'un <strong>Master en Intelligence Artificielle et Smart Technologies</strong>
+              (Université Iba Der Thiam de Thiès, en partenariat avec l'Université de Technologie de Troyes),
+              je mets la donnée au service des systèmes : de l'entraînement de modèles
+              (vision par ordinateur, classification, séries temporelles) jusqu'à leur
+              déploiement dans des applications web complètes.
             </p>
             <p>
-              Polyvalent, je maîtrise Java/Spring Boot, Python (Flask, Django, Streamlit), React, les solutions Cloud &amp; DevOps,
-              ainsi que les outils de Machine Learning et de Computer Vision. Animé par l&rsquo;innovation et la résolution de problèmes,
-              je conçois et déploie des solutions performantes répondant aux enjeux métiers et technologiques des entreprises.
+              Formé aux réseaux et télécoms en Licence, je parle naturellement le langage
+              des <strong>systèmes embarqués et des réseaux</strong> : prototypage IoT,
+              administration de serveurs Linux, intégration de capteurs et flux temps réel.
             </p>
-            <ul class="apropos-facts">
-              <li><strong>📍</strong> Rufisque / Dakar, Sénégal</li>
-              <li><strong>💼</strong> Développeur IA &amp; Web chez Universal Technologie Africa</li>
-              <li><strong>🌍</strong> Français (natif) · Anglais (moyen)</li>
-            </ul>
+            <p>
+              Mon objectif : des projets <strong>concrets, documentés et mesurables</strong> —
+              pas de statistiques inventées, pas d'effets d'annonce. Chaque projet ci-dessous
+              est réel, développé et versionné sur GitHub.
+            </p>
           </div>
-          <div class="apropos-card">
-            <h3>En bref</h3>
-            <div class="stat"><span class="stat-num">3+</span><span>années de dev &amp; infra</span></div>
-            <div class="stat"><span class="stat-num">20+</span><span>technologies maîtrisées</span></div>
-            <div class="stat"><span class="stat-num">2</span><span>diplômes techniques</span></div>
-            <a href="#projets" class="btn btn-primary btn-small">Voir mes projets ↓</a>
-          </div>
+          <ul class="apropos-facts reveal">
+            <h3>Fiche rapide</h3>
+            <li>Ingénierie IA — Master, 2025</li>
+            <li>Réseaux &amp; Télécoms — Licence, 2022</li>
+            <li>Sénégal — Dakar / Rufisque</li>
+            <li>Java · Python · JavaScript</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- ===== COMPETENCES ===== -->
-    <section id="competences" class="section section-alt">
+    <!-- ============ EXPERTISES ============ -->
+    <section class="section section-alt" id="expertises">
       <div class="container">
-        <h2 class="section-title">Compétences<span class="title-bar"></span></h2>
-        <div class="skills-grid">
-          <div class="skill-card">
-            <h3>🧠 IA &amp; Data</h3>
-            <p>Machine Learning (SVM, Random Forest, KNN, CNN, RNN), Computer Vision (YOLO, OpenCV), TensorFlow, Keras, Scikit-learn, Pandas, Matplotlib, Spark, Hadoop</p>
-            <span class="skill-badge">Python</span><span class="skill-badge">TensorFlow</span><span class="skill-badge">YOLO</span>
-          </div>
-          <div class="skill-card">
-            <h3>💻 Développement</h3>
-            <p>Développement d&rsquo;applications web back &amp; front end : API REST/SOAP/GraphQL/gRPC, microservices, intégration.</p>
-            <span class="skill-badge">Java</span><span class="skill-badge">Spring Boot</span><span class="skill-badge">React.js</span><span class="skill-badge">Flask</span><span class="skill-badge">Django</span><span class="skill-badge">Streamlit</span>
-          </div>
-          <div class="skill-card">
-            <h3>🗄️ Bases de données</h3>
-            <p>Modélisation, requêtage et administration de bases relationnelles et NoSQL.</p>
-            <span class="skill-badge">MySQL</span><span class="skill-badge">PostgreSQL</span><span class="skill-badge">MongoDB</span><span class="skill-badge">Neo4J</span><span class="skill-badge">Cassandra</span><span class="skill-badge">InfluxDB</span>
-          </div>
-          <div class="skill-card">
-            <h3>☁️ Cloud &amp; DevOps</h3>
-            <p>Déploiement et conteneurisation d&rsquo;infrastructures, supervision et automatisation.</p>
-            <span class="skill-badge">AWS</span><span class="skill-badge">OpenStack</span><span class="skill-badge">Docker</span><span class="skill-badge">Proxmox</span><span class="skill-badge">Kafka</span><span class="skill-badge">CI/CD</span>
-          </div>
-          <div class="skill-card">
-            <h3>🖧 Systèmes &amp; Réseaux</h3>
-            <p>Administration Linux/Windows, services réseau (DNS, DHCP, FTP, NFS, Proxy, VPN), sécurité SOC/SIEM, pare-feux, IDS/IPS, VLAN, routage.</p>
-            <span class="skill-badge">Linux</span><span class="skill-badge">Windows</span><span class="skill-badge">SOC</span><span class="skill-badge">SIEM</span>
-          </div>
-          <div class="skill-card">
-            <h3>🛠️ Conception &amp; Outils</h3>
-            <p>Analyse et modélisation, gestion de projet et outils d&rsquo;édition.</p>
-            <span class="skill-badge">UML</span><span class="skill-badge">Merise</span><span class="skill-badge">Git</span><span class="skill-badge">Tomcat</span><span class="skill-badge">N8N</span><span class="skill-badge">Node-RED</span>
-          </div>
+        <p class="section-eyebrow reveal">Expertises</p>
+        <h2 class="section-title reveal">Trois pôles, un même <span class="accent-blue">fil bleu</span></h2>
+        <div class="card-grid">
+          <article class="expertise-card reveal">
+            <div class="card-icon">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3>Intelligence Artificielle</h3>
+            <p>Machine Learning &amp; Deep Learning : vision par ordinateur (YOLO, OpenCV), classification, régression et séries temporelles avec Scikit‑learn, TensorFlow, Keras.</p>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="card-icon">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Développement Full Stack</h3>
+            <p>Backend Java (Spring Boot), Python (Flask) et fronts React/TypeScript. APIs REST, bases relationnelles et NoSQL, conteneurisation et intégration continue.</p>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="card-icon">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="12" y1="9" x2="12" y2="15"/></svg>
+            </div>
+            <h3>IoT &amp; Systèmes embarqués</h3>
+            <p>Prototypage de capteurs connectés, acquisition et traitement de flux temps réel, communication sans fil (LoRa, Wi‑Fi, BLE) et intégration aux plateformes cloud.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== PROJETS ===== -->
-    <section id="projets" class="section">
+    <!-- ============ PROJETS ============ -->
+    <section class="section" id="projets">
       <div class="container">
-        <h2 class="section-title">Projets<span class="title-bar"></span></h2>
+        <p class="section-eyebrow reveal">Projets</p>
+        <h2 class="section-title reveal">Des réalisations <span class="accent-blue">réelles</span>, versionnées sur GitHub</h2>
         <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-header">
-              <h3>DigitalRoutier</h3>
-              <span class="chip chip-primary">Backend · Java 21</span>
-            </div>
-            <p>
-              Backend monolithique de gestion des contraventions : PV, agents de terrain, ANPR (reconnaissance de plaques),
-              bodycams, missions, alertes, paiements et command center temps réel (WebSocket).
-            </p>
-            <ul class="project-tech">
-              <li>Spring Boot 3.3</li><li>Spring Security</li><li>Kafka</li><li>Redis</li><li>PostgreSQL</li><li>MinIO</li><li>OpenAPI</li>
-            </ul>
-            <div class="project-links">
-              <a href="#contact">Accès sur demande ↗</a>
-            </div>
+
+          <article class="project-card reveal">
+            <span class="project-chip">IA · Santé · IoT</span>
+            <h3>PhysioWatch — Télésurveillance médicale intelligente</h3>
+            <p>Plateforme de suivi physiologique connecté : capteurs, <strong>VLC (visible light communication)</strong>, modèle <strong>TabNet</strong> pour la détection d'anomalies, backend Python/Flask et interface React/TypeScript.</p>
+            <ul class="project-tech"><li>Python</li><li>Flask</li><li>TabNet</li><li>React</li><li>TypeScript</li><li>Systèmes embarqués</li></ul>
+            <div class="project-links"><a href="#contact">Accès sur demande</a></div>
           </article>
 
-          <article class="project-card">
-            <div class="project-header">
-              <h3>SAMAWIFI</h3>
-              <span class="chip chip-primary">Projet · WiFi Marketing</span>
-            </div>
-            <p>
-              Portail captif et solution de WiFi marketing. Chef de projet : déploiement de hotspot, page de connexion,
-              collecte de données et campagnes marketing via N8N.
-            </p>
-            <ul class="project-tech">
-              <li>Portail captif</li><li>Réseaux WiFi</li><li>N8N</li><li>Node-RED</li><li>Analytics</li>
-            </ul>
-            <div class="project-links">
-              <a href="#contact">Demander plus d&rsquo;infos</a>
-            </div>
+          <article class="project-card reveal">
+            <span class="project-chip">Vision IA · Java · Spring</span>
+            <h3>Gestion numérique des infractions routières</h3>
+            <p>Système de <strong>vidéoverbalisation</strong> : détection automatique des infractions par vision par ordinateur (<strong>YOLO</strong>, OpenCV), backend <strong>Spring Boot</strong> et consultation mobile. Projet en cours de conception.</p>
+            <ul class="project-tech"><li>Java</li><li>Spring Boot</li><li>YOLO</li><li>OpenCV</li><li>React</li><li>Mobile</li></ul>
+            <div class="project-links"><a href="#contact">Accès sur demande</a></div>
           </article>
 
-          <article class="project-card">
-            <div class="project-header">
-              <h3>Solutions IA</h3>
-              <span class="chip chip-primary">ML · Computer Vision</span>
-            </div>
-            <p>
-              Mise en place de solutions IA pour l&rsquo;automatisation et l&rsquo;analyse de données : détection d&rsquo;objets (YOLO/OpenCV),
-              modèles tabulaires et pipeline de machine learning.
-            </p>
-            <ul class="project-tech">
-              <li>Python</li><li>YOLO</li><li>OpenCV</li><li>Scikit-learn</li><li>TensorFlow</li><li>Pandas</li>
+          <article class="project-card reveal">
+            <span class="project-chip">Full Stack · Web</span>
+            <h3>Les Hôtels du Sénégal</h3>
+            <p>Plateforme de réservation hôtelière multi-établissements : gestion des chambres, des réservations et des disponibilités avec une architecture full stack type.</p>
+            <ul class="project-tech"><li>TypeScript</li><li>React</li><li>Node.js</li><li>API REST</li></ul>
+            <div class="project-links"><a href="#contact">Accès sur demande</a></div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-chip">IoT · Robotique</span>
+            <h3>Prototypage IoT &amp; Robotique</h3>
+            <p>Expérimentations et prototypes intelligents : capteurs embarqués, actionneurs et automatisation — socle technique de mes projets IA multi-capteurs.</p>
+            <ul class="project-tech"><li>Embedded C</li><li>ESP32/Arduino</li><li>Capteurs</li><li>Protocoles sans fil</li></ul>
+            <div class="project-links"><a href="#contact">Accès sur demande</a></div>
+          </article>
+
+        </div>
+        <p class="projects-note reveal">Mes dépôts GitHub sont privés, cohérents avec ma politique de confidentialité. <a href="https://github.com/jagt00" target="_blank" rel="noopener">Mes dépôts publics →</a></p>
+      </div>
+    </section>
+
+    <!-- ============ COMPÉTENCES ============ -->
+    <section class="section section-alt" id="competences">
+      <div class="container">
+        <p class="section-eyebrow reveal">Compétences</p>
+        <h2 class="section-title reveal">Technologies &amp; outils</h2>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Langages</h3>
+            <ul>
+              <li>Java</li><li>Python</li><li>JavaScript</li><li>TypeScript</li><li>SQL</li><li>HTML/CSS</li><li>Bash</li>
             </ul>
-            <div class="project-links">
-              <a href="#contact">Demander plus d&rsquo;infos</a>
-            </div>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Data &amp; IA</h3>
+            <ul>
+              <li>Scikit‑learn</li><li>TensorFlow</li><li>Keras</li><li>Pandas</li><li>NumPy</li><li>OpenCV</li><li>YOLO</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Backend &amp; APIs</h3>
+            <ul>
+              <li>Spring Boot</li><li>Flask</li><li>FastAPI</li><li>Node.js</li><li>REST</li><li>GraphQL</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Frontend</h3>
+            <ul>
+              <li>React</li><li>TypeScript</li><li>Responsive Design</li><li>Accessibilité</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Bases de données</h3>
+            <ul>
+              <li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>SQLite</li><li>Redis</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>DevOps &amp; Systèmes</h3>
+            <ul>
+              <li>Docker</li><li>Git/GitHub</li><li>Linux</li><li>CI/CD</li><li>GitHub Actions</li><li>Réseaux</li>
+            </ul>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== EXPERIENCE ===== -->
-    <section id="experience" class="section section-alt">
+    <!-- ============ PARCOURS ============ -->
+    <section class="section" id="parcours">
       <div class="container">
-        <h2 class="section-title">Expérience professionnelle<span class="title-bar"></span></h2>
+        <p class="section-eyebrow reveal">Parcours</p>
+        <h2 class="section-title reveal">Formation &amp; expériences</h2>
         <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <h3>Développeur IA &amp; Web<span class="timeline-date">Depuis avril 2026</span></h3>
-              <p class="timeline-org">Universal Technologie Africa</p>
-              <ul>
-                <li>Développement d&rsquo;applications web et maintenance évolutive des solutions.</li>
-                <li>Chef de projet <strong>SAMAWIFI</strong> : portail captif et WiFi marketing.</li>
-                <li>Mise en place de solutions IA pour l&rsquo;automatisation et l&rsquo;analyse de données.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <h3>Développeur &amp; Consultant en IA — Stage<span class="timeline-date">Mars → Juin 2025</span></h3>
-              <p class="timeline-org">Engy Partners</p>
-              <ul>
-                <li>Développement d&rsquo;applications web et maintien en condition opérationnelle.</li>
-                <li>Optimisation et correction de bugs pour assurer la stabilité des systèmes.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <h3>Administrateur Systèmes et Réseaux<span class="timeline-date">2024 → 2025</span></h3>
-              <p class="timeline-org">SODIAPLAST</p>
-              <ul>
-                <li>Administration et sécurisation d&rsquo;infrastructures réseaux et serveurs.</li>
-                <li>Support technique et maintenance des systèmes informatiques.</li>
-              </ul>
-            </div>
-          </div>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2025</span>
+            <h3>Ingénierie en Intelligence Artificielle</h3>
+            <p class="timeline-org">Master · Univ. Iba Der Thiam de Thiès — Univ. de Technologie de Troyes</p>
+            <p>Spécialité Intelligence Artificielle et Smart Technologies.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2022</span>
+            <h3>Licence en Systèmes, Réseaux et Télécoms</h3>
+            <p class="timeline-org">Université Alioune Diop de Bambey</p>
+            <p>Réseaux, télécommunications, administration systèmes.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2026</span>
+            <h3>Développeur IA &amp; Web</h3>
+            <p class="timeline-org">Universal Technologie Africa</p>
+            <p>Développement de solutions intelligentes et d'applications web.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2025</span>
+            <h3>Stage — Développeur &amp; Consultant IA</h3>
+            <p class="timeline-org">Engy Partners</p>
+            <p>Conception d'outils IA et accompagnement technique.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2024</span>
+            <h3>Prestataire — Administration Systèmes &amp; Réseaux</h3>
+            <p class="timeline-org">SODIAPLAST</p>
+            <p>Administration, maintenance et support des infrastructures.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== FORMATION ===== -->
-    <section id="formation" class="section">
-      <div class="container">
-        <h2 class="section-title">Formation<span class="title-bar"></span></h2>
-        <div class="edu-grid">
-          <div class="edu-card">
-            <span class="edu-year">2025</span>
-            <h3>Master en Intelligence Artificielle &amp; Smart-Tech</h3>
-            <p>Université Iba Der Thiam de Thiès — en partenariat avec l&rsquo;Université Technologique de Troyes (France)</p>
-          </div>
-          <div class="edu-card">
-            <span class="edu-year">2022</span>
-            <h3>Licence en Systèmes, Réseaux &amp; Télécoms</h3>
-            <p>Université Alioune Diop de Bambey</p>
-          </div>
-          <div class="edu-card">
-            <span class="edu-year">2019</span>
-            <h3>Baccalauréat Scientifique (S2)</h3>
-            <p>Lycée Abdoulaye Sadji de Rufisque</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== CONTACT ===== -->
-    <section id="contact" class="section section-contact">
-      <div class="container">
-        <h2 class="section-title">Contact<span class="title-bar"></span></h2>
-        <p class="contact-intro">Une opportunité, un projet, une question ? Écrivez-moi !</p>
-        <div class="contact-grid">
-          <a class="contact-card" href="mailto:Jeanalexandretine1@gmail.com">
-            <span class="contact-icon">📧</span>
-            <span class="contact-label">Email</span>
-            <span class="contact-value">Jeanalexandretine1@gmail.com</span>
-          </a>
-          <a class="contact-card" href="tel:+221773248363">
-            <span class="contact-icon">📱</span>
-            <span class="contact-label">Téléphone</span>
-            <span class="contact-value">+221 77 324 83 63</span>
-          </a>
-          <a class="contact-card" href="https://github.com/jagt00" target="_blank" rel="noopener">
-            <span class="contact-icon">💻</span>
-            <span class="contact-label">GitHub</span>
-            <span class="contact-value">github.com/jagt00</span>
-          </a>
-          <a class="contact-card" href="https://www.linkedin.com/in/jagt00" target="_blank" rel="noopener">
-            <span class="contact-icon">🔗</span>
-            <span class="contact-label">LinkedIn</span>
-            <span class="contact-value">linkedin.com/in/jagt00</span>
-          </a>
-        </div>
-      </div>
-    </section>
   </main>
 
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-contact" id="contact">
+    <div class="container" style="max-width: 44rem; margin-inline: auto; text-align: center;">
+      <p class="section-eyebrow reveal">Contact</p>
+      <h2 class="section-title reveal" style="margin-inline: auto;">Travaillons ensemble</h2>
+      <p class="section-lead reveal" style="margin-inline: auto;">Vous avez un projet IA, web ou IoT ? Écrivez-moi, je vous réponds rapidement.</p>
+      <div class="contact-card reveal" style="text-align: left;">
+        <a class="contact-row" href="mailto:Jeanalexandretine1@gmail.com">
+          <span class="contact-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          </span>
+          <span>Jeanalexandretine1@gmail.com</span>
+        </a>
+        <a class="contact-row" href="https://github.com/jagt00" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a11 11 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.39-5.26 5.68.41.35.78 1.05.78 2.12 0 1.53-.01 2.76-.01 3.14 0 .31.2.67.8.55C20.22 21.38 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+          </span>
+          <span>github.com/jagt00</span>
+        </a>
+        <a class="contact-row" href="https://www.linkedin.com/in/jean-alexandre-tine-514687272/" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V23h-4zM8.5 8h3.8v2.05h.05c.53-1 1.82-2.05 3.75-2.05 4.01 0 4.75 2.64 4.75 6.07V23h-4v-8.5c0-2.03-.04-4.64-2.83-4.64s-3.27 2.21-3.27 4.5V23h-4z"/></svg>
+          </span>
+          <span>linkedin.com/in/jean-alexandre-tine-514687272</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
   <footer class="footer">
-    <div class="container">
-      <p>© 2026 Jean Alexandre GUEDJI TINE — Développeur IA</p>
-      <p>
-        <a href="https://github.com/jagt00" target="_blank" rel="noopener">GitHub</a> ·
-        <a href="https://www.linkedin.com/in/jagt00" target="_blank" rel="noopener">LinkedIn</a> ·
-        <a href="mailto:Jeanalexandretine1@gmail.com">Email</a>
-      </p>
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Jean Alexandre Guedji TINE — Tous droits réservés.</p>
+      <p>Conçu &amp; développé par moi-même.</p>
     </div>
   </footer>
 

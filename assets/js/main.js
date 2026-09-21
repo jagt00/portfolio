@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var toggle = document.getElementById("menu-toggle");
+  var toggle = document.getElementById("nav-toggle");
   var links = document.getElementById("nav-links");
 
   if (toggle && links) {
