@@ -157,9 +157,17 @@
       <div class="container">
         <p class="section-eyebrow reveal">Projets</p>
         <h2 class="section-title reveal">Des réalisations <span class="accent-blue">réelles</span>, versionnées sur GitHub</h2>
-        <div class="projects-grid">
+        
+        <div class="filter-bar reveal" role="tablist" aria-label="Filtrer les projets">
+          <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">Tous</button>
+          <button type="button" class="filter-btn" data-filter="ia-health" aria-pressed="false">IA &amp; Santé</button>
+          <button type="button" class="filter-btn" data-filter="ia-fullstack" aria-pressed="false">IA &amp; Full Stack</button>
+          <button type="button" class="filter-btn" data-filter="fullstack-web" aria-pressed="false">Full Stack Web</button>
+          <button type="button" class="filter-btn" data-filter="iot" aria-pressed="false">IoT</button>
+        </div>
+<div class="projects-grid">
 
-          <article class="project-card reveal">
+          <article class="project-card reveal" data-category="ia-health">
             <span class="project-chip">IA · Santé · IoT</span>
             <h3>PhysioWatch — Télésurveillance médicale intelligente</h3>
             <p>Plateforme de suivi physiologique connecté : capteurs, <strong>VLC (visible light communication)</strong>, modèle <strong>TabNet</strong> pour la détection d'anomalies, backend Python/Flask et interface React/TypeScript.</p>
@@ -167,7 +175,7 @@
             <div class="project-links"><a href="#contact">Accès sur demande</a></div>
           </article>
 
-          <article class="project-card reveal">
+          <article class="project-card reveal" data-category="ia-fullstack">
             <span class="project-chip">Vision IA · Java · Spring</span>
             <h3>Gestion numérique des infractions routières</h3>
             <p>Système de <strong>vidéoverbalisation</strong> : détection automatique des infractions par vision par ordinateur (<strong>YOLO</strong>, OpenCV), backend <strong>Spring Boot</strong> et consultation mobile. Projet en cours de conception.</p>
@@ -175,7 +183,7 @@
             <div class="project-links"><a href="#contact">Accès sur demande</a></div>
           </article>
 
-          <article class="project-card reveal">
+          <article class="project-card reveal" data-category="fullstack-web">
             <span class="project-chip">Full Stack · Web</span>
             <h3>Les Hôtels du Sénégal</h3>
             <p>Plateforme de réservation hôtelière multi-établissements : gestion des chambres, des réservations et des disponibilités avec une architecture full stack type.</p>
@@ -183,7 +191,7 @@
             <div class="project-links"><a href="#contact">Accès sur demande</a></div>
           </article>
 
-          <article class="project-card reveal">
+          <article class="project-card reveal" data-category="iot">
             <span class="project-chip">IoT · Robotique</span>
             <h3>Prototypage IoT &amp; Robotique</h3>
             <p>Expérimentations et prototypes intelligents : capteurs embarqués, actionneurs et automatisation — socle technique de mes projets IA multi-capteurs.</p>
@@ -322,5 +330,10 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
+
+  <!-- Bouton retour-haut -->
+  <button type="button" class="to-top" id="to-top" aria-label="Revenir en haut de la page">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
 </body>
 </html>
